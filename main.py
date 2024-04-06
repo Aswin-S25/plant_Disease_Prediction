@@ -20,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model('api/disease_prediction.keras')
+MODEL = tf.keras.models.load_model('disease_prediction.keras')
 
 
 CLASS_NAMES = ['Cotton_Bacterial_Blight', 'Cotton_Healthy',
